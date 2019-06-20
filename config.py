@@ -9,18 +9,18 @@
     
 """
 
-import os
+from elasticsearch import Elasticsearch
 import watson_developer_cloud
 from slackclient import SlackClient
 
-location = "/Users/xxxxxxxx/Downloads/Movie_Bot/"  # replace with the full folder path where you downloaded the github repo
+location = "/Users/yz/Downloads/Movie_Bot-master"  # replace with the full folder path where you downloaded the github repo
 
 ###################################################################
 ######## Slack configuration   ##########################
 ###################################################################
 
-SLACK_BOT_TOKEN='xoxb-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx'
-SLACK_VERIFICATION_TOKEN='xxxxxxxxxxxxxxxxxxxxxxxx' 
+SLACK_BOT_TOKEN='xoxp-671083137175-668758664628-660070245715-0d87ebc35e854672f31c62882464119b'
+SLACK_VERIFICATION_TOKEN='BJEvijfSJjjlBc5COBbfi68w'  
 
 # instantiate Slack client
 slack_client = SlackClient(SLACK_BOT_TOKEN) # do not change this parameter
